@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import ReactMapGL from "react-map-gl";
+import ReactMapGL, { Marker } from "react-map-gl";
+import * as courtData from "./data/tennis_courts.json";
 // import './App.css';
 
 export default function App() {
   const [viewport, setViewport] = useState({
-    latitude: 40.7831,
-    longitude: 73.9712,
+    latitude: 40.758896,
+    longitude: -73.985130,
     width: '100vw',
     height: '100vh',
     zoom: 10
@@ -14,13 +15,24 @@ export default function App() {
     <div className="App">
 		 <ReactMapGL 
 		   {...viewport} 
-			 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+			 mapboxApiAccessToken="pk.eyJ1IjoidHNhcmRpbmVzIiwiYSI6ImNrNmZ6ZXVyajFtZTYzZXMwcTQwandxbHIifQ.dCGU9zv1_wVkVPCdxIYzUg"
 			 mapStyle="mapbox://styles/tsardines/ck4ophj9c0szv1cpm3ih7czez"
        onViewportChange={viewport => {
          setViewport(viewport);
        }}
      >
-       markers
+       {courtData.features.map(court => (
+         <Marker
+            key={court.properties.Prop_ID}
+            latitude={court.geometry.coordinates[0]} 
+            longitude={court.geometry.coordinates[1]}
+         >
+           <button>
+             click
+           </button>
+
+         </Marker>
+       ))}
      </ReactMapGL>
     </div>
   );
