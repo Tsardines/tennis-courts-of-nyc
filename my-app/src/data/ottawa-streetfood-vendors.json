@@ -1,0 +1,896 @@
+﻿{
+  "objectIdFieldName": "FID",
+  "uniqueIdField": {
+    "name": "FID",
+    "isSystemMaintained": true
+  },
+  "globalIdFieldName": "",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "FID",
+      "type": "esriFieldTypeOID",
+      "alias": "FID",
+      "sqlType": "sqlTypeInteger",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Trade_Name",
+      "type": "esriFieldTypeString",
+      "alias": "Trade_Name",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Concept",
+      "type": "esriFieldTypeString",
+      "alias": "Concept",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "LICENSE__T",
+      "type": "esriFieldTypeString",
+      "alias": "LICENSE__T",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Location",
+      "type": "esriFieldTypeString",
+      "alias": "Location",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "X",
+      "type": "esriFieldTypeDouble",
+      "alias": "X",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Y_Coordina",
+      "type": "esriFieldTypeDouble",
+      "alias": "Y_Coordina",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Website",
+      "type": "esriFieldTypeString",
+      "alias": "Website",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Twitter",
+      "type": "esriFieldTypeString",
+      "alias": "Twitter",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Facebook",
+      "type": "esriFieldTypeString",
+      "alias": "Facebook",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 254,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "FID": 1,
+        "Trade_Name": "AD MARE MOBILE SEAFOOD INC",
+        "Concept": "Sustainable fish and seafood",
+        "LICENSE__T": "Vehicle",
+        "Location": "South side of slater East of O'Connor",
+        "X": 45.420304,
+        "Y_Coordina": -75.697689,
+        "Website": "http://admareseafood.com",
+        "Twitter": "@Ad_Mare",
+        "Facebook": "https://www.facebook.com/AdMareSeafood"
+      },
+      "geometry": {
+        "x": -75.69768899999998,
+        "y": 45.42030400000004
+      }
+    },
+    {
+      "attributes": {
+        "FID": 2,
+        "Trade_Name": "ALEXANDER'S HOT DOGS",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "East Side of Elgin St and North of Queen St",
+        "X": 45.423613,
+        "Y_Coordina": -75.694762,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69476199999997,
+        "y": 45.423613000000046
+      }
+    },
+    {
+      "attributes": {
+        "FID": 3,
+        "Trade_Name": "ANGRY DRAGONZ",
+        "Concept": "Asian fusion with a twist",
+        "LICENSE__T": "Vehicle",
+        "Location": "North Side of Gloucester East of Lyon",
+        "X": 45.416194,
+        "Y_Coordina": -75.702718,
+        "Website": "angrydragonz.ca",
+        "Twitter": "@angrydragonz",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70271799999996,
+        "y": 45.41619400000008
+      }
+    },
+    {
+      "attributes": {
+        "FID": 4,
+        "Trade_Name": "B & B CHIPS",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "South Side of Cooper St and East of Bank St",
+        "X": 45.416176,
+        "Y_Coordina": -75.69641,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69640999999996,
+        "y": 45.41617600000006
+      }
+    },
+    {
+      "attributes": {
+        "FID": 5,
+        "Trade_Name": "BAP",
+        "Concept": "Bibimbap - authentic Korean cuisine",
+        "LICENSE__T": "Cart",
+        "Location": "West Side of Bank between Slater and Albert (retained for temporary relocation purposes.",
+        "X": 45.41969,
+        "Y_Coordina": -75.700082,
+        "Website": " ",
+        "Twitter": "@RaonKitchen",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70008199999995,
+        "y": 45.419690000000045
+      }
+    },
+    {
+      "attributes": {
+        "FID": 6,
+        "Trade_Name": "CANAPOLA",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "West of Metcalfe and South of Sparks",
+        "X": 45.422637,
+        "Y_Coordina": -75.697366,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.697366,
+        "y": 45.42263700000006
+      }
+    },
+    {
+      "attributes": {
+        "FID": 7,
+        "Trade_Name": "CHEF ON WHEELS",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "North of Lisgar, East of Elgin(Retained for temporary relocation purposes)",
+        "X": 45.419501,
+        "Y_Coordina": -75.691098,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69109799999997,
+        "y": 45.419501000000025
+      }
+    },
+    {
+      "attributes": {
+        "FID": 8,
+        "Trade_Name": "DAREK'S HOT DOGS",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "East Metcalfe between Albert & Queen",
+        "X": 45.422042,
+        "Y_Coordina": -75.696573,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69657299999994,
+        "y": 45.422042000000026
+      }
+    },
+    {
+      "attributes": {
+        "FID": 9,
+        "Trade_Name": "HA LOU FRENCH FRIES",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "South Side of Slater st between Lyon and Kent St.",
+        "X": 45.418359,
+        "Y_Coordina": -75.702549,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70254899999998,
+        "y": 45.41835900000006
+      }
+    },
+    {
+      "attributes": {
+        "FID": 10,
+        "Trade_Name": "HOT DIGGITY DOGS",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "East Side of Bank and South of Laurier Ave.",
+        "X": 45.418384,
+        "Y_Coordina": -75.698758,
+        "Website": "hotdogottawa.com",
+        "Twitter": "@hotdigdogottawa",
+        "Facebook": "https://www.facebook.com/Hot-Diggitty-Dog"
+      },
+      "geometry": {
+        "x": -75.69875799999994,
+        "y": 45.41838400000006
+      }
+    },
+    {
+      "attributes": {
+        "FID": 11,
+        "Trade_Name": "IVAILO'S ICE-CREAM #1",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "West Side of Metcalfe St between Sparks St and Wellington St",
+        "X": 45.423133,
+        "Y_Coordina": -75.697839,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.697839,
+        "y": 45.423133000000064
+      }
+    },
+    {
+      "attributes": {
+        "FID": 12,
+        "Trade_Name": "IVAILO'S SUPER DOGS",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "West Side of Metcalfe St between Sparks St and Wellington St.",
+        "X": 45.423133,
+        "Y_Coordina": -75.697839,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.697839,
+        "y": 45.423133000000064
+      }
+    },
+    {
+      "attributes": {
+        "FID": 13,
+        "Trade_Name": "LE SNACK ATTACK",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "south Nepean/West Elgin",
+        "X": 45.419626,
+        "Y_Coordina": -75.692237,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69223699999999,
+        "y": 45.41962600000004
+      }
+    },
+    {
+      "attributes": {
+        "FID": 14,
+        "Trade_Name": "LOU FAST FOODS",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "west side of Metcalfe/North of Queen",
+        "X": 45.422309,
+        "Y_Coordina": -75.697148,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69714799999997,
+        "y": 45.422309000000034
+      }
+    },
+    {
+      "attributes": {
+        "FID": 15,
+        "Trade_Name": "MIKEY'S FAST FOOD",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "West Metcalfe between Laurier & Slater",
+        "X": 45.420671,
+        "Y_Coordina": -75.695541,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69554099999993,
+        "y": 45.42067100000003
+      }
+    },
+    {
+      "attributes": {
+        "FID": 16,
+        "Trade_Name": "MR. CHURRITOS",
+        "Concept": "Churro (traditional Mexican treats)",
+        "LICENSE__T": "Cart",
+        "Location": "West side of O'Connor/North of Sparks",
+        "X": 45.421935,
+        "Y_Coordina": -75.699331,
+        "Website": " ",
+        "Twitter": "@CatrinaChurros",
+        "Facebook": "https://www.facebook.com/LaCatrinaChurros/"
+      },
+      "geometry": {
+        "x": -75.69933099999999,
+        "y": 45.421935000000076
+      }
+    },
+    {
+      "attributes": {
+        "FID": 17,
+        "Trade_Name": "OTTAWA STREAT GOURMET",
+        "Concept": "fresh, local and seasonal ever-changing menu.  Gourmet inspired. Chef driven",
+        "LICENSE__T": "Vehicle",
+        "Location": "North side of Queen West of O'Connor",
+        "X": 45.421351,
+        "Y_Coordina": -75.6991,
+        "Website": "http://streatottawa.ca/",
+        "Twitter": "@StreatOttawa",
+        "Facebook": "https://www.facebook.com/pages/Ottawa-Streat-Gourmet/139622142853155"
+      },
+      "geometry": {
+        "x": -75.69909999999997,
+        "y": 45.42135100000007
+      }
+    },
+    {
+      "attributes": {
+        "FID": 18,
+        "Trade_Name": "RICO PERU TRUCK",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "East side of Kent between Laurier and Slater",
+        "X": 45.418134,
+        "Y_Coordina": -75.701332,
+        "Website": "http://www.ricoperu.ca/",
+        "Twitter": "@Rico_Peru",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70133199999998,
+        "y": 45.41813400000007
+      }
+    },
+    {
+      "attributes": {
+        "FID": 19,
+        "Trade_Name": "ROYI FRUTA CART",
+        "Concept": "Baked empanadas and exotic fruit drinks",
+        "LICENSE__T": "Cart",
+        "Location": "North Side Laurier East Side Elgin",
+        "X": 45.421328,
+        "Y_Coordina": -75.692982,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69298199999997,
+        "y": 45.421328000000074
+      }
+    },
+    {
+      "attributes": {
+        "FID": 20,
+        "Trade_Name": "SEASON CHIPS",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "North Sparks/West Lyon on corner",
+        "X": 45.41928,
+        "Y_Coordina": -75.705969,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70596899999998,
+        "y": 45.41928000000007
+      }
+    },
+    {
+      "attributes": {
+        "FID": 21,
+        "Trade_Name": "STELLA LUNA GELATO CAFE",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "east side O\"Connor/south Sparks",
+        "X": 45.421894,
+        "Y_Coordina": -75.699168,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69916799999999,
+        "y": 45.42189400000006
+      }
+    },
+    {
+      "attributes": {
+        "FID": 22,
+        "Trade_Name": "SUMMERVILLE REFRESHMENT",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "West Side of Elgin St between Nepean and Gloucester St",
+        "X": 45.420191,
+        "Y_Coordina": -75.692506,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69250599999998,
+        "y": 45.42019100000004
+      }
+    },
+    {
+      "attributes": {
+        "FID": 23,
+        "Trade_Name": "T.D. CHIPS",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "North side of Lisgar and West of Bank",
+        "X": 45.416606,
+        "Y_Coordina": -75.697895,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69789499999996,
+        "y": 45.41660600000005
+      }
+    },
+    {
+      "attributes": {
+        "FID": 24,
+        "Trade_Name": "TOMMY'S CHIP WAGON",
+        "Concept": " ",
+        "LICENSE__T": "Vehicle",
+        "Location": "West side of Metcalfe/South of Wellington",
+        "X": 45.42334,
+        "Y_Coordina": -75.697879,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.69787899999994,
+        "y": 45.42334000000004
+      }
+    },
+    {
+      "attributes": {
+        "FID": 25,
+        "Trade_Name": "ANDY'S HOT DOG",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "South side of Richmond(366) between Roosevelt and Churchill",
+        "X": 45.391436,
+        "Y_Coordina": -75.755142,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.75514199999996,
+        "y": 45.391436000000056
+      }
+    },
+    {
+      "attributes": {
+        "FID": 26,
+        "Trade_Name": "ANDY'S HOT DOG (2)",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "North Side of 1565 Carling Southwest corner Kirkwood",
+        "X": 45.380852,
+        "Y_Coordina": -75.74561,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.74560999999993,
+        "y": 45.38085200000006
+      }
+    },
+    {
+      "attributes": {
+        "FID": 27,
+        "Trade_Name": "CRYSTAL DOG**",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "West Side of North River at Mcarthur",
+        "X": 45.430919,
+        "Y_Coordina": -75.668878,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.66887799999995,
+        "y": 45.43091900000007
+      }
+    },
+    {
+      "attributes": {
+        "FID": 28,
+        "Trade_Name": "DOSA INC.",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "Dubdonald Park - South side of Somerset St. W.",
+        "X": 45.413304,
+        "Y_Coordina": -75.701298,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70129799999994,
+        "y": 45.413304000000046
+      }
+    },
+    {
+      "attributes": {
+        "FID": 29,
+        "Trade_Name": "EMILY'S CHIP WAGON",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "South Side of St.Laurent Blvd (2315) East of Thurston min. 20m of bus stop",
+        "X": 45.384108,
+        "Y_Coordina": -75.619852,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.61985199999998,
+        "y": 45.38410800000002
+      }
+    },
+    {
+      "attributes": {
+        "FID": 30,
+        "Trade_Name": "FRENCHIES SUPER FRIES",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "North Side of Wellington (1145) West of McCormick",
+        "X": 45.40168,
+        "Y_Coordina": -75.727211,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.72721099999995,
+        "y": 45.401680000000056
+      }
+    },
+    {
+      "attributes": {
+        "FID": 31,
+        "Trade_Name": "GLEN'S FRIES",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "South Side of Richmond between Patricia and Hilson",
+        "X": 45.395951,
+        "Y_Coordina": -75.744932,
+        "Website": " ",
+        "Twitter": "https://www.facebook.com/Glens-Fries-190125937687791/",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.74493199999996,
+        "y": 45.39595100000002
+      }
+    },
+    {
+      "attributes": {
+        "FID": 32,
+        "Trade_Name": "K & H FRIES",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "West side of Dumaurier(2865)min of 15m from Ramsey and 20m from the bus stop",
+        "X": 45.350554,
+        "Y_Coordina": -75.793211,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.79321099999999,
+        "y": 45.35055400000003
+      }
+    },
+    {
+      "attributes": {
+        "FID": 33,
+        "Trade_Name": "K & H FRIES (2)",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "East Booth/15 metres north of Norman",
+        "X": 45.401269,
+        "Y_Coordina": -75.705515,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70551499999993,
+        "y": 45.40126900000008
+      }
+    },
+    {
+      "attributes": {
+        "FID": 34,
+        "Trade_Name": "LONG PATATES",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "Ruskin outside of Heart Institute",
+        "X": 45.394674,
+        "Y_Coordina": -75.720555,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.72055499999992,
+        "y": 45.394674000000066
+      }
+    },
+    {
+      "attributes": {
+        "FID": 35,
+        "Trade_Name": "M.D.'S MOBILE KITCHEN",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "North Side of Old Innes where Old Innes meets Sheffield",
+        "X": 45.411235,
+        "Y_Coordina": -75.615592,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.61559199999994,
+        "y": 45.411235000000026
+      }
+    },
+    {
+      "attributes": {
+        "FID": 36,
+        "Trade_Name": "MOBILE MAYFLOWER",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "West Courtwood/South Woodward",
+        "X": 45.372394,
+        "Y_Coordina": -75.749986,
+        "Website": " ",
+        "Twitter": "https://www.facebook.com/MayflowerOttawa/",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.74998599999998,
+        "y": 45.372394000000035
+      }
+    },
+    {
+      "attributes": {
+        "FID": 37,
+        "Trade_Name": "NEW JERSEY HOT DOG",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "North Rideau/East Waller",
+        "X": 45.427689,
+        "Y_Coordina": -75.688755,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.68875499999996,
+        "y": 45.42768900000005
+      }
+    },
+    {
+      "attributes": {
+        "FID": 38,
+        "Trade_Name": "STEVE CHAN",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "East Side of Bantree(1815) on gravel portion",
+        "X": 45.405974,
+        "Y_Coordina": -75.616959,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.61695899999995,
+        "y": 45.40597400000007
+      }
+    },
+    {
+      "attributes": {
+        "FID": 39,
+        "Trade_Name": "STREETSIDE CONCESSIONS",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "North Side of Laurier Ave West of pedestrian crosswalk at Ottawa U",
+        "X": 45.42467,
+        "Y_Coordina": -75.685622,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.68562199999997,
+        "y": 45.42467000000005
+      }
+    },
+    {
+      "attributes": {
+        "FID": 40,
+        "Trade_Name": "STREETSIDE CONCESSIONS",
+        "Concept": " ",
+        "LICENSE__T": "Cart",
+        "Location": "South Side of Laurier East of Pedestrian Crosswalk at Ottawa U.",
+        "X": 45.424171,
+        "Y_Coordina": -75.685429,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.68542899999994,
+        "y": 45.42417100000006
+      }
+    },
+    {
+      "attributes": {
+        "FID": 41,
+        "Trade_Name": "THEE CHIP SHOPPE",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "Carling at Booth",
+        "X": 45.399177,
+        "Y_Coordina": -75.704586,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70458599999995,
+        "y": 45.399177000000066
+      }
+    },
+    {
+      "attributes": {
+        "FID": 42,
+        "Trade_Name": "THEE CHIP SHOPPE",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "West side of Booth south of Norman",
+        "X": 45.400938,
+        "Y_Coordina": -75.705547,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.70554699999997,
+        "y": 45.40093800000005
+      }
+    },
+    {
+      "attributes": {
+        "FID": 43,
+        "Trade_Name": "THEE CHIP SHOPPE",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "Nelson at York directly across 96 Nelson",
+        "X": 45.431368,
+        "Y_Coordina": -75.685441,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.68544099999997,
+        "y": 45.43136800000008
+      }
+    },
+    {
+      "attributes": {
+        "FID": 44,
+        "Trade_Name": "TOMMY'S CHIP WAGON",
+        "Concept": " ",
+        "LICENSE__T": "Truck",
+        "Location": "North Wellington/East of Huron",
+        "X": 45.399613,
+        "Y_Coordina": -75.732895,
+        "Website": " ",
+        "Twitter": " ",
+        "Facebook": " "
+      },
+      "geometry": {
+        "x": -75.73289499999998,
+        "y": 45.39961300000004
+      }
+    }
+  ]
+}
